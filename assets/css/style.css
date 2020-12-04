@@ -14,16 +14,16 @@ background-color: rgb(194, 255, 248);
 
 .content-center{
 
-width: 100px;
+width: 100%;
 max-width: 300px;
 margin: auto;
-
+padding: 20px;
 
 }
 
 .content-center img {
 
-width: 180%;
+width: 70%;
 
 
 } 
