@@ -89,3 +89,10 @@ color: white;
 background-color:rgba(0, 17, 255, 0.835);
 
 }
+
+header a {
+
+
+    color: dimgray;
+    text-decoration: none;
+}
