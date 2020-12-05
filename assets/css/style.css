@@ -7,7 +7,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 body{
 
-background-color: rgb(194, 255, 248);
+background-color: rgb(251, 251, 251);
 
 }
 
@@ -18,7 +18,7 @@ width: 100%;
 max-width: 300px;
 margin: auto;
 padding: 20px;
-background-color: rgb(195, 223, 236) ;
+background-color: rgb(225, 226, 226) ;
 border-radius:15px;
 }
 
@@ -59,4 +59,12 @@ border-bottom-color:  rgb(129, 129, 129);
 border-bottom-style: solid;
 border-bottom-width: 2px;
 margin-bottom: 10px;
+}
+
+.content-center button {
+
+background-color: rgb(134, 156, 255);
+color: white;
+
+
 }
