@@ -73,6 +73,12 @@ color: white;
 
 
 
-    background-color:rgb(0, 17, 255);
+    background-color:rgb(81, 93, 255);
     cursor: pointer;
+}
+
+.content-center button:active {
+
+background-color:rgba(0, 17, 255, 0.835);
+
 }
