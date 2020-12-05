@@ -52,3 +52,11 @@ outline: none;
 
 }
 
+.content-center input {
+
+
+border-bottom-color:  rgb(129, 129, 129);
+border-bottom-style: solid;
+border-bottom-width: 2px;
+margin-bottom: 10px;
+}
