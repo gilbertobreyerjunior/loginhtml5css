@@ -104,3 +104,15 @@ text-decoration: underline;
 
 
 }
+
+header a:focus {
+
+    color:green;
+}
+
+header a:active {
+
+color:coral;
+
+}
+
