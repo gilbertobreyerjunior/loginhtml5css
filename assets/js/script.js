@@ -1,6 +1,3 @@
-console.log('Teste');
-
-
 
 document.querySelector('#btn-submit').addEventListener('click', e =>{
 
@@ -31,8 +28,24 @@ email,
 password
 
 
+}
+
+if (!json.email) {
 
 
+
+console.error('É necessário digitar o e-mail');
+
+
+} else if (!json.password) {
+
+console.error('É necessário digitar a senha');
+
+
+} else {
+
+
+console.info('Login realizado com sucesso');
 
 }
 
