@@ -4,16 +4,21 @@ console.log('Teste');
 
 document.querySelector('#btn-submit').addEventListener('click', e =>{
 
-console.login('O botão foi clicado');
+console.log('O botão foi clicado');
 
 
 });
 
 
+document.querySelector('#form-login').addEventListener('submit', e=>{
 
 
-let email = querySelector('#email').value;
-let password = querySelector('#password').value;
+e.preventDefault();
+
+
+
+let email = document.querySelector('#email').value;
+let password = document.querySelector('#password').value;
 
 
 console.log(email, password);
@@ -30,3 +35,11 @@ password
 
 
 }
+
+
+
+
+
+
+});
+
